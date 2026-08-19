@@ -1,2 +1,2 @@
 config SHIELD_NAHUEL60BT
-    def_bool $(shield_list_contains,nahuel60bt)
+    def_bool $(shields_list_contains,nahuel60bt)
