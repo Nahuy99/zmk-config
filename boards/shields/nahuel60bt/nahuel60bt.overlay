@@ -1,9 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "nahuel60bt.dtsi"
 
-&physical_layout_0{
-    transform = <&keymap_transform0>;
-};
+/* &physical_layout_0{ */
+/*     transform = <&keymap_transform0>; */
+/* }; */
 
 / {
     chosen {
