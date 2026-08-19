@@ -6,4 +6,4 @@ url: https://git.nahuelalvarez.com.br/
 requires: [pro_micro]
 features:
   - keys
-  # - studio
+  - studio
