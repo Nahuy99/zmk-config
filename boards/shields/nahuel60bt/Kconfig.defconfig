@@ -1,6 +1,6 @@
 if SHIELD_NAHUEL60BT
     
     config ZMK_KEYBOARD_NAME
-        default "nahuel60bt"
+        default "Nahuel 60 bt"
 
 endif
