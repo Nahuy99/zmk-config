@@ -23,3 +23,4 @@ include:
     shield: nahuel60bt
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: bt60_v1_hs
