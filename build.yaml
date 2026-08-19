@@ -18,5 +18,9 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-include:
-  - board: bt60_v1_hs
+# include:
+#   - board: bt60_v1_hs
+    - board: nahuel60bt
+      shield: nahuel60bt
+      snippet: studio-rpc-usb-uart
+      cmake-args: -DCONFIG_ZMK_STUDIO=y
