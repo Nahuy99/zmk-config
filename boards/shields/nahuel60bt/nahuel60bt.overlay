@@ -2,16 +2,16 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include "nahuel60bt.dtsi"
 
+ext-power{
+    compatible = "zmk,ext-power-generic";
+    control-gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
+    init-delay-ms = <50>;
+};
+
 / {
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout_0;
-    };
-
-    ext-power{
-        compatible = "zmk,ext-power-generic";
-        control-gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
-        init-delay-ms = <50>;
     };
 
     default_transform: keymap_transform0{
