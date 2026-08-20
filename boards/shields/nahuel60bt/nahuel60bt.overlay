@@ -2,8 +2,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include "nahuel60bt.dtsi"
 
-&ext-power{
-    compatible = "zmk,ext-power-generic";
+&ext_power{
     control-gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
     init-delay-ms = <50>;
 };
