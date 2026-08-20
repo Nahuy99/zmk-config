@@ -6,12 +6,6 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
-
-    studio_user_behaviors {
-        compatible = "zmk,studio-user-behaviors";
-        behaviors = <&bl &ext_power>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
