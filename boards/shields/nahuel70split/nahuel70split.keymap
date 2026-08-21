@@ -10,8 +10,8 @@
         default_layer {
             bindings = <
                 &kp ESC &kp N1 &kp N2  &kp N3 &kp N4 &kp N5 &kp N6                  &kp N7 &kp  N8   &kp  N9 &kp  N0  &kp MINUS &kp MINUS &kp MINUS
-                &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp C_VOL_UP            &kp J  &kp  L    &kp  U  &kp  Y   &kp LBKT  &kp LBKT  &kp LBKT
-                &kp CLCK  &kp A  &kp R  &kp S  &kp T  &kp G  &kp C_VOL_DOWN         &kp M  &kp  M    &kp  N  &kp E &kp I   &kp O   &kp RET
+                &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp N6            &kp J  &kp  L    &kp  U  &kp  Y   &kp LBKT  &kp LBKT  &kp LBKT
+                &kp CLCK  &kp A  &kp R  &kp S  &kp T  &kp G  &kp N6         &kp M  &kp  M    &kp  N  &kp E &kp I   &kp O   &kp RET
                 &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp N  &kp M      &kp COMMA &kp K &kp H &kp FSLH &kp COMMA &kp DOT &kp UP &kp FSLH
                 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M      &kp COMMA &kp DOT &kp UP &kp FSLH &kp COMMA &kp DOT &kp UP &kp FSLH
                                                                      &kp LCTRL  &kp LGUI
@@ -21,8 +21,8 @@
         raise {
             bindings = <
                 &kp ESC &kp N1 &kp N2  &kp N3 &kp N4 &kp N5 &kp N6                  &kp N7 &kp  N8   &kp  N9 &kp  N0  &kp MINUS &kp MINUS &kp MINUS
-                &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp C_VOL_UP            &kp J  &kp  L    &kp  U  &kp  Y   &kp LBKT  &kp LBKT  &kp LBKT
-                &kp CLCK  &kp A  &kp R  &kp S  &kp T  &kp G  &kp C_VOL_DOWN         &kp M  &kp  M    &kp  N  &kp E &kp I   &kp O   &kp RET
+                &kp TAB  &kp Q  &kp W  &kp F  &kp P  &kp B  &kp N6            &kp J  &kp  L    &kp  U  &kp  Y   &kp LBKT  &kp LBKT  &kp LBKT
+                &kp CLCK  &kp A  &kp R  &kp S  &kp T  &kp G  &kp N6         &kp M  &kp  M    &kp  N  &kp E &kp I   &kp O   &kp RET
                 &kp LSHFT  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp N  &kp M      &kp COMMA &kp K &kp H &kp FSLH &kp COMMA &kp DOT &kp UP &kp FSLH
                 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M      &kp COMMA &kp DOT &kp UP &kp FSLH &kp COMMA &kp DOT &kp UP &kp FSLH
                                                                      &kp LCTRL  &kp LGUI
