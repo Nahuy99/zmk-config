@@ -1,0 +1,12 @@
+file_format: "1"
+id: nahuel70split
+name: Nahuel 70 Split 
+type: shield
+url: https://git.nahuelalvarez.com.br/
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - nahuel70split_left
+  - nahuel70split_right

@@ -1,0 +1,25 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include "nahuel60bt.dtsi"
+
+
+/ {
+    &default_transform {
+    col-offset = <9>;
+    };
+
+    &kscan0{   
+        col-gpios
+            = <&pro_micro 5 GPIO_ACTIVE_HIGH> // col 0
+            , <&pro_micro 6 GPIO_ACTIVE_HIGH> // col 1
+            , <&pro_micro 7 GPIO_ACTIVE_HIGH> // col 2
+            , <&pro_micro 8 GPIO_ACTIVE_HIGH> // col 3
+            , <&pro_micro 9 GPIO_ACTIVE_HIGH> // col 4
+            , <&pro_micro 10 GPIO_ACTIVE_HIGH> // col 5
+            , <&pro_micro 16 GPIO_ACTIVE_HIGH> // col 5
+            , <&pro_micro 4 GPIO_ACTIVE_HIGH> // col 6
+            ;
+    };
+
+
+};

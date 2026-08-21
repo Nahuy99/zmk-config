@@ -1,0 +1,5 @@
+config SHIELD_NAHUEL70SPLIT_LEFT
+    def_bool $(shields_list_contains,nahuel70split_left)
+
+config SHIELD_NAHUEL70SPLIT_RIGHT
+    def_bool $(shields_list_contains,nahuel70split_right)
