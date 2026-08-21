@@ -3,7 +3,7 @@ if SHIELD_NAHUEL70SPLIT_LEFT
     config ZMK_KEYBOARD_NAME
         default "Nahuel 70 Split"
 
-    config ZMK_SPLIT_ROLE_CENTAL
+    config ZMK_SPLIT_ROLE_CENTRAL
         default y
 
 endif
